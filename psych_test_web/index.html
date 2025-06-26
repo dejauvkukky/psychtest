@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>심리테스트</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>당신의 성격 유형은?</h1>
+    <div id="quiz"></div>
+    <button onclick="showResult()">결과 보기</button>
+    <div id="result" class="result"></div>
+    <div id="share" class="share" style="display:none;">
+      <p>결과 공유 링크:</p>
+      <input type="text" id="shareLink" readonly />
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
